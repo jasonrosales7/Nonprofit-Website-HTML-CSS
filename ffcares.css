@@ -1,0 +1,287 @@
+body{  
+    color: black;
+    background-attachment: fixed;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    animation: 100000ms ease-in-out infinite color-change;
+  }
+
+@keyframes color-change {
+  0% {
+    background-image: linear-gradient(green, white);   
+  }
+  20% {
+    background-image: linear-gradient(teal, white);
+  }
+  40% {
+    background-image: linear-gradient(purple, white);
+  }
+  60% {
+    background-image: linear-gradient(orange, white);
+  }
+  80% {
+    background-image: linear-gradient(red, white); 
+  }
+  100% {
+    background-image: linear-gradient(gray, white);
+  }
+}
+
+
+header{
+  background-color: 000033;
+  color: #FFFFFF;
+  font-family: Georgia, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+h1{ 
+  color: red; 
+  line-height: 200%;
+  text-align: center;
+  font-family: Georgia, serif;
+  padding: 10px;
+}
+
+h2{ 
+  color: #000000; 
+  font-family: Georgia, serif;
+  padding: 25px;
+  font-size: 40px;
+}
+
+h3{
+  padding: 25px;
+  font-size: 40px;
+}
+
+h4{
+  padding: 25px;
+  font-size: 35px;
+}
+
+a{
+  text-decoration: none;
+  color: darkblue;
+}
+
+a:hover{
+  color: white;
+}
+
+p{
+  padding: 45px;
+  font-size:  35px;
+}
+
+center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+dd{
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 30px;
+}
+
+dl{
+  padding: 35px;
+  font-size: 30px;
+}
+
+ol li{
+  font-size: 20px;
+  padding: 35px;
+}
+
+
+nav{ 
+  background-color: #FFFFFF;
+  text-align: center;
+  font: serif;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+dt{ 
+  color: #000033;
+  font-weight: bold;
+} 
+
+.wrapper{
+  height: 100%;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 3px 3px 3px #666666;
+  background-color: #DCDCDC	;
+}
+
+table, th, tr{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li{
+  padding: 30px;
+}
+
+footer{  
+  font-size: 15px;
+  font-style: italic; 
+  text-align: center;   
+  background-color: lightsteelblue;
+  outline-style: groove;
+}
+
+.navbar{
+  overflow: hidden;
+  background-color: #333;
+  text-decoration: none;
+}
+
+.navbar a{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.headering{
+  background-image: url(Logos/Cares-Logo.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 90%;
+  height: 72px;
+  background-size: 75px 80px;
+  margin-bottom: 0%;
+  color: white;
+  background-color: none; 
+   font-size:50px;
+}
+
+  @media screen and (max-width: 700px) {
+  #indexVideo{
+    display:none;
+  }
+  #marijuanavideo{
+    display:none;
+  }
+  #aboutImg1{
+    display: none;
+  }
+  #aboutImg2{
+    display: none;
+  }
+  #vapePic1{
+    display: none;
+  }
+  #vapePic2{
+    display: none;
+  }
+  #vapeVid1{
+    display: none;
+  }
+  #vapeVid2{
+    display: none;
+  }
+  #marijuanaPic{
+    display: none;
+  }
+  #opioidPic{
+    display: none;
+  }
+  #alcoholVid{
+    display: none;
+  }
+  #marijuanaPdf1{
+    display: none;
+  }
+  #marijuanaPdf2{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
+  h1{
+    font-size: 20px; 
+  }
+  .headering{
+    font-size: 20px;
+  }
+  header{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 17px;
+  }
+  h3,dt{
+    font-size: 15px;
+  }
+  p, dd{
+    font-size: 14px;
+  }
+  #map{
+    display: none;
+  }
+  
+  
+}
+
+
